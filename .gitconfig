@@ -1,0 +1,9 @@
+[user]
+	name = TyOverby
+	email = ty@pre-alpha.com
+[core]
+	autocrlf = false
+[color]
+	diff = auto
+	status = auto
+	branch = auto
