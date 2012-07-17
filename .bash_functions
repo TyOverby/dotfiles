@@ -1,6 +1,6 @@
 # Functions
 
-extract () {
+function extract () {
 	if [ -f $1 ] ; then
 		case $1 in
 			*.tar.bz2)	tar xjf $1		;;
@@ -19,3 +19,8 @@ extract () {
 		echo "'$1' is not a valid file"
 	fi
 }
+
+function f(){
+  find . -name "$1"
+}
+
