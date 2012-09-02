@@ -66,6 +66,12 @@ else
     exit 1
 fi
 
+# =================================================
+# = Finding dependencies                          =
+# =================================================
+echo "Project Dependencies"
+yum deplist $program_name | grep dependency
+
 
 
 # =================================================
