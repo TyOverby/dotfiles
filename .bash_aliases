@@ -4,4 +4,6 @@ alias setdir='pwd > ~/.curdir'
 alias go='cat ~/.curdir | cd'
 alias py='python'
 alias sl=ls
+
+alias enter='fakeroot fakechroot chroot ~/hier/'
 alias yummy='sh ~/dotfiles/yummy.sh'

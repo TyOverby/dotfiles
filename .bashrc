@@ -4,5 +4,6 @@ done
 
 unset file
 
-PATH="$PATH:~/hier/usr/bin/:~/hier/bin:~/hier/usr/local/bin/"
-LD_LIBRARY_PATH="$LD_LIBRARY_PATH:~/hier/usr/lib64/:~/hier/usr/lib"
+PATH="$HOME/hier/usr/bin/:$HOME/hier/bin:$HOME/hier/usr/local/bin/:$PATH"
+LD_LIBRARY_PATH="$HOME/hier/usr/lib64/:$HOME/hier/usr/lib:$LD_LIBRARY_PATH"
+#export FAKECHROOT_CMD_SUBST=/sbin/insserv=/bin/true:/sbin/ldconfig=/bin/true:/usr/bin/ischroot=/bin/true:/usr/bin/ldd=/usr/bin/ldd.fakechroot:/usr/bin/mkfifo=/bin/true
