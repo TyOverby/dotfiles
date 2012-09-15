@@ -1,7 +1,7 @@
 # /usr/bin/env bash
 
 temp_dir="$HOME/.yummy"
-dest_dir="$HOME/hier"
+dest_dir="$HOME/root"
 
 `mkdir $temp_dir > /dev/null 2> /dev/null`
 cd $temp_dir
