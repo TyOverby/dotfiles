@@ -1,7 +1,7 @@
 # /usr/bin/env bash
 
 temp_dir="$HOME/.yummy"
-dest_dir="$HOME/root"
+dest_dir="$HOME/root/"
 
 `mkdir $temp_dir > /dev/null 2> /dev/null`
 cd $temp_dir
@@ -80,7 +80,7 @@ install(){
     # which is then extracted
     echo "Converting and extracting files"
     cp $file_to_extract $dest_dir
-    (cd $dest_dir && rpm2cpio $file_to_extract | cpio -id && rm $file_to_extract)
+    (cd $dest_dir && rpm2cpio $file_to_extract | cpio -idu && rm $file_to_extract)
 
 
     # Cleans up the downloaded .rpm files

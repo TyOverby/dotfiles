@@ -6,4 +6,6 @@ alias py="python"
 alias sl=ls
 alias l=ls
 alias enter='fakeroot fakechroot chroot ~/root/'
+alias cdd='~/dotfiles/cdd.sh'
+alias ..='cd ..'
 alias yummy='sh ~/dotfiles/yummy.sh'
