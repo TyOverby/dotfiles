@@ -1,6 +1,6 @@
 cd ~
 
-for file in ~/dotfiles/.{bash_aliases,bash_cygwin,bash_prompt,bash_functions,bashrc,gitconfig};
+for file in ~/dotfiles/.{z.sh,bash_aliases,bash_cygwin,bash_prompt,bash_functions,bashrc,gitconfig};
 do
   echo "linking $file  " `basename $file`
   ln -s "$file" `basename $file`

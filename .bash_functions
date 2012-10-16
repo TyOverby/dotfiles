@@ -20,6 +20,15 @@ function extract () {
 	fi
 }
 
+function boiler(){
+  case $1 in
+    *bash)   echo "#!/bin/bash" > $2         ;;
+    *python) echo "#!/usr/bin/python" >$2    ;;
+    *java)   echo "class $2{\n\n}" > "$2.java" ;;
+    *)       echo "'$1' is not accepted"       ;;
+  esac
+}
+
 function f(){
   find . -name "$1"
 }
