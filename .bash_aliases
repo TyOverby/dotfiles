@@ -7,3 +7,4 @@ alias sl=ls
 alias cdd='~/dotfiles/cdd.sh'
 alias ..='cd ..'
 alias yummy='sh ~/dotfiles/yummy.sh'
+alias attu='ssh tyoverby@attu.cs.washington.edu'
