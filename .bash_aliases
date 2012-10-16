@@ -5,3 +5,4 @@ alias go='cat ~/.curdir | cd'
 alias py='python'
 alias sl=ls
 alias cdd='~/dotfiles/cdd.sh'
+alias ..='cd ..'
