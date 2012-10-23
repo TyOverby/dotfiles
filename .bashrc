@@ -3,7 +3,6 @@ for file in ~/.{bash_cygwin,bash_prompt,bash_aliases,bash_functions}; do
 done
 unset file
 
-PATH="$PATH:~/hier/usr/bin/:~/hier/bin:~/hier/usr/local/bin/"
-LD_LIBRARY_PATH="$LD_LIBRARY_PATH:~/hier/usr/lib64/:~/hier/usr/lib"
-
-zsh
+export EPREFIX="$HOME/root"
+export PATH="$EPREFIX/usr/sbin/:$EPREFIX/usr/bin:$EPREFIX/bin:$EPREFIX/tmp/usr/bin:$EPREFIX/tmp/bin:/usr/bin:/bin"
+export FAKECHROOT_CMD_SUBST=/sbin/insserv=/bin/true:/sbin/ldconfig=/bin/true:/usr/bin/ischroot=/bin/true:/usr/bin/ldd=/usr/bin/ldd.fakechroot:/usr/bin/mkfifo=/bin/true
