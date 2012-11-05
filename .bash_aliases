@@ -5,6 +5,8 @@ alias la="ls -a"
 alias ls='ls -CF --color=auto --ignore="NTUSER.*" --ignore="*.pyc" --ignore="ntuser.*"'
 alias sl=ls
 alias l=ls
+alias lsl=ls
+alias sls=ls
 
 # python and similar
 alias py="python"
