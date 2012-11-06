@@ -18,3 +18,4 @@ alias attu='ssh tyoverby@attu.cs.washington.edu'
 # jumping magic!
 alias s='pwd > $HOME/.jump_dir'
 alias j='cd `cat $HOME/.jump_dir`'
+alias hai=~/hai/hai
